@@ -92,10 +92,10 @@ export default function Home() {
               <Mail size={20} />
               <span className="sr-only">Email</span>
             </Link>
-            <Link href="#" className="text-zinc-400 hover:text-emerald-400 transition-colors">
+            {/* <Link href="#" className="text-zinc-400 hover:text-emerald-400 transition-colors">
               <FileText size={20} />
               <span className="sr-only">Resume</span>
-            </Link>
+            </Link> */}
           </div>
           <p className="text-zinc-500 text-sm mt-6 text-center lg:text-left">© {new Date().getFullYear()} Dave</p>
         </div>
